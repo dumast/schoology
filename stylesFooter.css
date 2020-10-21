@@ -1,0 +1,66 @@
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#footer *{
+    height:43px;
+    list-style: none;
+    background-color:#333333;
+    color:white;
+    font-size: 9px;
+    padding:0px;
+    font-weight: bold;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#endShortAccess {
+    list-style: none;
+    position: relative;
+}
+
+#endShortAccess button {
+    border: 0px;
+    width: 50px;
+}
+
+#endShortAccess a:hover, #endShortAccess a:visited {
+    text-decoration: underline;
+}
+
+#eSALeft, #eSALeft li {
+    float: left;
+    list-style: none;
+}
+
+#eSALeft li:nth-child(1) button{
+    width: 120px;
+    padding:0px;
+}
+
+#eSARight li:nth-child(1) button{
+    width: 130px;
+    padding:0px 0px 0px 20px;
+}
+
+#eSARight li:nth-child(2) button, 
+#eSARight li:nth-child(4) button, 
+#eSARight li:nth-child(5) button, 
+#eSARight li:nth-child(6) button {
+    width: 85px;
+    padding:0px 0px 0px 0px;
+}
+
+#eSARight li:nth-child(3) button, 
+#eSARight li:nth-child(5) button, 
+#eSARight li:nth-child(7) button {
+    width: 10px;
+    padding:0px 0px 0px 0px;
+}
+
+#eSARight, #eSARight li {
+    float: right;
+    list-style: none;
+}
