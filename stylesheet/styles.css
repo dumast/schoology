@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+    zoom: 150%;
+}
+
+#page {
+    box-sizing: border-box;
+    background-color: #f2f2f2 !important;
+}
+
+#content {
+    float: left;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 60%;
+    padding: 15px;
+    height: 680px;
+    background-color: lightblue;
+}
+
+#about {
+    float: right;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 30%;
+    padding: 15px;
+    height: 680px;
+    background-color: lightblue;
+    border-color: #cccccc;
+    border: 50px;
+}
+
+#left {
+    float: left;
+    height: 100%;
+    width: 48%;
+    margin-right: 1%;
+}
+
+#right {
+    float: right;
+    height: 100%;
+    width: 48%;
+    margin-left: 1%
+}
+
+#left ul,
+#right ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#left ul button,
+#right ul button {
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+}
+
+#left ul button:hover,
+#right ul button:hover {
+    background-size: 100% 100%;
+    font-size: 0px;
+}
+
+#btLeft li:nth-child(1) button:hover {
+    background-image: url("https://groupe-reussite.fr/wp-content/uploads/2019/06/maths-1024x683.jpg");
+}
+
+#btRight li:nth-child(1) button:hover {
+    background-image: url("https://i-mom.unimedias.fr/2020/09/16/le-francais-va-t-il-disparaitre-un-jour.jpg");
+}
+
+#btLeft li:nth-child(2) button:hover {
+    background-image: url("https://www.blogangelio.ovh/wp-content/uploads/2019/12/perfetionner-son-anglais-1.png");
+}
+
+#btRight li:nth-child(2) button:hover {
+    background-image: url("https://www.larousse.fr/encyclopedie/data/images/1009665-Drapeau_de_lEspagne.jpg");
+}
+
+#btLeft li:nth-child(3) button:hover {
+    background-image: url("https://www.aboneobio.com/wp-content/uploads/2020/04/aquaponie.jpeg");
+}
+
+#btRight li:nth-child(3) button:hover {
+    background-image: url("https://img.nrj.fr/Yq_B6O3HD_ol4IWLAQ7tEH-zxfM=/http://image-api.nrj.fr/medias/2018/06/bac2018-svt-s_5b276c3fa5955.jpg");
+}
+
+#btLeft li:nth-child(4) button:hover {
+    background-image: url("https://www.clg-simone-veil-pontoise.fr/media/k2/items/cache/3749aaa8ee129d7e919bddcc7e09cd36_XL.jpg");
+}
+
+#btRight li:nth-child(4) button:hover {
+    background-image: url("https://www.hlpdeveloppement.fr/wp-content/uploads/2019/09/2.jpg");
+}
+
+#btLeft li:nth-child(5) button:hover {
+    background-image: url("https://www.marketplace.org/wp-content/uploads/2019/09/stock-market-thumb.jpg");
+}
+
+#btRight li:nth-child(5) button:hover {
+    background-image: url("https://lejournal.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/itw_fauvelle_page_73_11794651.jpg");
+}
+
+#btLeft li:nth-child(6) button:hover {
+    background-image: url("https://lh3.googleusercontent.com/proxy/ma1LwQg_d7OBe2IZwv4i0wzbVXK1g3KxB1JAyt0BKWB2xwrli6wOMgeevw4_T1nTZKHdB-HUU7apz6lsXeo");
+}
