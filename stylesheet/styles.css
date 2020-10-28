@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #faf9f7
     text-align: center;
     zoom: 150%;
 }
 
 #page {
     box-sizing: border-box;
-    background-color: #f2f2f2 !important;
+/*     background-color: #f2f2f2 !important; */
 }
 
 #content {
@@ -22,7 +22,7 @@ body {
     width: 60%;
     padding: 15px;
     height: 680px;
-    background-color: lightblue;
+/*     background-color: lightblue; */
 }
 
 #about {
@@ -33,7 +33,7 @@ body {
     width: 30%;
     padding: 15px;
     height: 680px;
-    background-color: lightblue;
+/*     background-color: lightblue; */
     border-color: #cccccc;
     border: 50px;
 }
